@@ -12,6 +12,7 @@ public class HiloEscribe extends Thread{
     
     public void setTmp(int tmp) {
         this.tmp = tmp;
+        ini=44;
     }
     @Override
     public void run(){
