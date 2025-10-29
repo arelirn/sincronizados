@@ -6,6 +6,7 @@ public class HiloEscribe extends Thread{
 
     public HiloEscribe(Posicion x){
         this.p=x;
+        ini=23;
     }
     
     public void setTmp(int tmp) {
